@@ -1,0 +1,82 @@
+.lead {
+	color: white;
+	margin-top: 140px;
+	font-size: 18px;
+}
+
+.bio {
+	margin-bottom: -20px;
+	font-size: 28px;
+	padding-top: 10px;
+}
+
+.foto {
+	width: 120px;
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 40px;
+}
+
+.baris1 {
+	background-image: url(img/alam.jpeg);
+	background-size: cover;
+	position: relative;
+}
+
+.teks {
+	color: white;
+	border: 1px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px){
+	.nav-link {
+		margin-left: 140px;
+	}
+
+	.carousel-item {
+		position: relative;
+		overflow: hidden;
+		margin-top: -120px;
+	}
+
+	.lead {
+		color: white;
+		margin-top: 388px;
+		font-size: 32px;
+	}
+
+	.bio {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		font-size: 52px;
+	}
+
+	.foto {
+		width: 200px;
+		margin-left: 100px;
+	}
+
+	.baris1 {
+		margin-top: -100px;
+	}
+
+	.col-md-7 {
+		margin-bottom: 180px;
+	}
+
+	.judul {
+		position: relative;
+		float: right;
+	}
+
+	.teks2 {
+		color: black;
+		border: 1px;
+	}
+
+	td {
+		font-size: 18px;
+	}
+}
